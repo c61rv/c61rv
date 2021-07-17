@@ -1,0 +1,237 @@
+@media (max-height: 700px) {
+    .section {
+        height: auto;
+    }
+
+    .foreword._active, .about._active, .people._active, .news._active, .contact._active {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    :root {
+        --fs: 20px;
+    }
+
+    .foreword__text {
+        width: 50vw;
+    }
+
+    .foreword__imgBg {
+        width: 85%;
+    }
+
+    .foreword__img {
+        width: 90%;
+    }
+
+    .about {
+        justify-content: start;
+    }
+
+    .about__content {
+        width: 100%;
+        padding-left: calc(4*var(--margin));
+        padding-right: calc(4*var(--margin));
+    }
+    .address {
+        margin-right: calc(2 * var(--margin));
+    }
+}
+
+@media (max-width: 1100px) {
+
+    :root {
+        --fs: 15px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .home__text {
+        left: 15vw;
+        width: 100%;
+    }
+
+    .header__logo {
+        width: 50px;
+    }
+
+    .menu {
+        width: 70vw ;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .menu {
+        width: 100vw;
+    }
+
+    .home__text {
+        left: 0;
+        width: 90vw;
+        padding-left: calc(var(--margin) * 5);
+        padding-right: calc(var(--margin) * 5);
+    }
+
+    .foreword__title, .about__title, .contact__title {
+        margin: 0;
+        padding-top: calc(var(--margin) * 5);
+        padding-bottom: calc(var(--margin) * 5);
+        font-size: 2em;
+    }
+
+    .foreword__text {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .foreword__text p, .about__text p {
+        margin-top: 0;
+    }
+
+    #foreword, #about, #contact {
+        height: auto;
+    }
+
+    .foreword._active, .about._active, .contact._active {
+        height: auto;
+    }
+
+    .foreword__left-column {
+        display: none;
+    }
+
+    .foreword__right-column {
+        width: 100vw;
+        align-items: flex-start;
+        justify-content: start;
+        padding-left: calc(var(--margin) * 5);
+        padding-right: calc(var(--margin) * 5);
+        padding-bottom: calc(var(--margin) * 5);
+    }
+
+    .foreword__text::before, .foreword__text::after {
+        display: none;
+    }
+
+    .about {
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .about__content {
+        width: 100%;
+        padding-left: calc(var(--margin) * 5);
+        padding-right: calc(var(--margin) * 5);
+        padding-bottom: calc(var(--margin) * 5);
+    }
+
+    .about__text {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .slider__item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slick-slide {
+        width: 100vw;
+    }
+
+    .slider__bg {
+        width: 100vw;
+    }
+
+    .slider__text {
+        width: 90vw;
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .map {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .contact__textContent {
+        width: 100vw;
+        height: auto;
+        justify-content: start;
+        align-items: flex-start;
+        padding-left: calc(var(--margin) * 5);
+        padding-right: calc(var(--margin) * 5);
+        padding-bottom: calc(var(--margin) * 5);
+    }
+
+    .contact__info {
+        min-height: auto;
+    }
+
+    .copyright {
+        margin-top: 5vw;
+    }
+}
+
+@media (max-width: 370px) {
+
+    .menu__item {
+        font-size: 2em;
+    }
+}
+
+@media (max-height: 325px) {
+    .home__text {
+        font-size: 1.3em;
+    }
+
+    .slider__text {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-height: 375px) {
+
+    .menu__content {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10vh;
+    }
+
+    .menu__link {
+        font-size: 1em;
+    }
+
+    .menu__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-height: 700px) {
+    .navigation {
+        display: none;
+    }
+
+    .menu__link {
+        font-size: 1em;
+    }
+
+    .foreword__imgBg {
+        height: 70%;
+    }
+
+    .foreword__img {
+        height: 95%;
+    }
+}
